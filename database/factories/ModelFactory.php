@@ -52,7 +52,7 @@ $factory->define(Product::Class, function(Faker\Generator $faker)
 	return [
 		'name' 			=> $faker->word,
 		'description' 	=> $faker->sentence,
-		'price' 		=> $faker->numberBetween(10, 50)
+		'price' 		=> $faker->numberBetween(10, 100)
 	];
 });
 
